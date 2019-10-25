@@ -28,13 +28,21 @@ $('.login').on('click', () => {
 $logout = $(`#logout`);
 
 // EVENT LISTENERS
+var audio = document.getElementById(`sound`);
+$agecheck.on(`click`, () => {
+  audio.play();
+})
+
+//  
 
 const onSignUpSuccess = () => {
   window.location = `/login`;
 }
 
 $(`form`).submit(`submit`, (event) => {
+ 
   event.preventDefault();
+ 
   const apiUrl = `api/v1/signup`
 
   if ($password.val() !== $password2.val()) {
