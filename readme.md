@@ -6,7 +6,7 @@ http://memeattic.herokuapp.com/
 ## Technologies Used
 - Express API
 - RESTful Routes
- - Full CRUD on User model, GET, POST, and DELETE on Favorites model
+-- Full CRUD on User model, GET, POST, and DELETE on Favorites model
 - AJAX
 - jQuery
 - Templating
